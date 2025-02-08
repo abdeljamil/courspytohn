@@ -74,7 +74,7 @@ _AgePersonne
 # print(valeur_booleen)
 
 
-# valeur_booleen = False
-# valeur_booleen =  str(valeur_booleen)
-# print(valeur_booleen)
+valeur_booleen = False
+valeur_booleen =  str(valeur_booleen)
+print(valeur_booleen)
 
