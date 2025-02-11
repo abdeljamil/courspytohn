@@ -6,6 +6,13 @@ Operations en python: +(additions)
                       *(mutiplications)
                       /(division)
                       %(modulo)->reste d'une division Euclidien
+
+variable = variable + X
+
+variable += x
+variable -= x
+variable %= x
+variable /= x
 """
 
 
@@ -49,6 +56,6 @@ niveauPersonnage = int(niveauPersonnage)
 
 print("Niveau du personnage",niveauPersonnage)
 print("Combat réussi, tu gagnes un niveau !")
-niveauPersonnage = niveauPersonnage + 1
+niveauPersonnage = niveauPersonnage + 1   
 
 print("Niveau du personnage",niveauPersonnage)
