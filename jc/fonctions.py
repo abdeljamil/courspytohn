@@ -8,6 +8,8 @@ fonctions vues : print(),input()
 
 # print("Bonjour à tous ! :)")
 
-age = input("Quel âge as-tu?")
-age = int(age)
-print("Tu as {} ans.".format(age))
+# age = input("Quel âge as-tu?")
+# age = int(age)
+# print("Tu as {} ans.".format(age))
+
+
