@@ -48,8 +48,8 @@ Mots-clés :breack (casse la boucle)/continue(revient au début de la boucle)
 
 
 
-list_news = get_new()
+# list_news = get_new()
 
-for news in list_news:
-    print()
-print("A bientôt...") 
+# for news in list_news:
+#     print()
+# print("A bientôt...") 
