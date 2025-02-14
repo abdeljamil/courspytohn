@@ -40,11 +40,18 @@ fonctions vues : print(),input()
 #     print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
 # dire(nom_personne="Jason",age_personne=25) 
 
-def show_inventory(*list_items):
-    for item in list_items:
-      print(item)
+
+# def show_inventory(*list_items):
+#     for item in list_items:
+#       print(item)
 
 
 
-show_inventory("épée")
-show_inventory("épée","arc","potion de nana","cape de Dragon rouge")
+# show_inventory("épée")
+# show_inventory("épée","arc","potion de nana","cape de Dragon rouge")
+
+
+
+def calculer_some(nombre1,nombre2):
+    resultat = nombre1 + nombre2
+    return resultat
