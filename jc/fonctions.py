@@ -52,6 +52,24 @@ fonctions vues : print(),input()
 
 
 
-def calculer_some(nombre1,nombre2):
-    resultat = nombre1 + nombre2
-    return resultat
+# def calculer_somme(nombre1,nombre2):
+#     resultat = nombre1 + nombre2
+#     return resultat
+
+# print(calculer_somme(5,16))
+
+
+# def calculer_somme(nombre1,nombre2):
+#     resultat = nombre1 + nombre2
+#     print("je ne serai jamais lu... :(")
+
+# print(calculer_somme(5,16))
+
+def le_plus_grand(nombre1, nombre2):
+    if nombre1 > nombre2:
+        return nombre1
+    elif nombre1 < nombre2:
+        return nombre2
+    else:
+        return "EGALIE"
+print(le_plus_grand(5,16))
