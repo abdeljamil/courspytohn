@@ -19,7 +19,11 @@ fonctions vues : print(),input()
 # dire_bonjour()
 
 
-def dire(nom_personne,message_personne):
-    print("{} : {}".format(nom_personne,message_personne))
-dire("Jason","Bonjour à tous")
-dire("Tom","Salut!")    
+# def dire(nom_personne,message_personne):
+#     print("{} : {}".format(nom_personne,message_personne))
+# dire("Jason","Bonjour à tous")
+# dire("Tom","Salut!")    
+
+def dire(nom_personne="Tom",message_personne="salut!" ):
+    print("{}:{}".format(nom_personne,message_personne))
+dire("joson")
