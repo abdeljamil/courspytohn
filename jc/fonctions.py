@@ -36,6 +36,11 @@ fonctions vues : print(),input()
 #     print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
 # dire(message_personne="Yo!",age_personne=25,nom_personne="Roger") 
 
-def dire(nom_personne="Tom",message_personne="salut!",age_personne="18" ):
-    print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
-dire(nom_personne="Jason",age_personne=25) 
+# def dire(nom_personne="Tom",message_personne="salut!",age_personne="18" ):
+#     print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
+# dire(nom_personne="Jason",age_personne=25) 
+
+def show_inventory(*items):
+    show_inventory("épée")
+    show_inventory("épée","arc","potion de nana","cape de Dragon rouge")
+    
