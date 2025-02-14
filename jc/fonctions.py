@@ -24,6 +24,10 @@ fonctions vues : print(),input()
 # dire("Jason","Bonjour à tous")
 # dire("Tom","Salut!")    
 
+# def dire(nom_personne="Tom",message_personne="salut!" ):
+#     print("{}:{}".format(nom_personne,message_personne))
+# dire("joson")
+
 def dire(nom_personne="Tom",message_personne="salut!" ):
     print("{}:{}".format(nom_personne,message_personne))
-dire("joson")
+dire() 
