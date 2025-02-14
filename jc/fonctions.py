@@ -28,6 +28,14 @@ fonctions vues : print(),input()
 #     print("{}:{}".format(nom_personne,message_personne))
 # dire("joson")
 
-def dire(nom_personne="Tom",message_personne="salut!" ):
-    print("{}:{}".format(nom_personne,message_personne))
-dire() 
+# def dire(nom_personne="Tom",message_personne="salut!" ):
+#     print("{}:{}".format(nom_personne,message_personne))
+# dire() 
+
+# def dire(nom_personne="Tom",message_personne="salut!",age_personne="18" ):
+#     print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
+# dire(message_personne="Yo!",age_personne=25,nom_personne="Roger") 
+
+def dire(nom_personne="Tom",message_personne="salut!",age_personne="18" ):
+    print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
+dire(nom_personne="Jason",age_personne=25) 
