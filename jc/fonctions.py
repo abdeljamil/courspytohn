@@ -40,7 +40,11 @@ fonctions vues : print(),input()
 #     print("{} ({} ans):{}".format(nom_personne,age_personne,message_personne))
 # dire(nom_personne="Jason",age_personne=25) 
 
-def show_inventory(*items):
-    show_inventory("épée")
-    show_inventory("épée","arc","potion de nana","cape de Dragon rouge")
-    
+def show_inventory(*list_items):
+    for item in list_items:
+      print(item)
+
+
+
+show_inventory("épée")
+show_inventory("épée","arc","potion de nana","cape de Dragon rouge")
