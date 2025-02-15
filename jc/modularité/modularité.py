@@ -27,7 +27,7 @@ Importer un module : import <nom_module>
 
 # print(resultat)
 
-from  math import *
+# from  math import *
 
-resultat = sqrt(255)
-print(resultat)
+# resultat = sqrt(255)
+# print(resultat)
