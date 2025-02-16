@@ -57,11 +57,21 @@ Type d'exceptions  :ValueError
 
 
 
+# try:
+#     age = input("Quel âge as-tu ?")
+#     age = int(age)
+
+#     assert age > 26 #Je veux que age soit plus grand que 25
+
+# except AssertionError:
+#     print("J'ai attrapé l'exception")
+
+
+
 try:
     age = input("Quel âge as-tu ?")
     age = int(age)
+except:
+    print("Age incorect")
 
-    assert age > 26 #Je veux que age soit plus grand que 25
-
-except AssertionError:
-    print("J'ai attrapé l'exception")
+    
