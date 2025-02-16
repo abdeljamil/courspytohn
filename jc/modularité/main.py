@@ -27,6 +27,13 @@ Importer un module : import <nom_module>
 
 # parler("Jason","salut les abonnés !")
 
+
+# import includes.player
+
+# includes.player.au_revoir()
+# includes.player.parler("Jason","Salut les Abonnés !")
+
+
 import includes.player as player
 
 
