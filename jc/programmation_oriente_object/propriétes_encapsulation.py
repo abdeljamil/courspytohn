@@ -9,7 +9,9 @@ Propriété : Maniére de manipuler/contrôler des attributs
 class Humain:
     def __init__(self,nom,age):
         self.nom = nom
-        self.age = age
+        self._age = age
+
+    #property(<getter>,<setter>,<deleter>,<helper>)
 
 #Programme principal 
 
