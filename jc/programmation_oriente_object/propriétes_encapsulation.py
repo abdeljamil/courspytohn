@@ -12,3 +12,5 @@ class Humain:
         self.age = age
 
 #Programme principal 
+
+h1 = Humain("Jason",26)
