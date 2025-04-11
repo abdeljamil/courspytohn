@@ -9,6 +9,11 @@ str.upper();str.lower();str.capitalize();str.title();
 str.center(<largeur>;<caractere_remplisage>)
 str.find(<chaine>;<debut>;<fin>)
 str.index(<chaine>;<debut>;<fin>)
+str.replace(<ancien>,<nouvelle>,<occurences>)
+str.isalpha(),str.isdecimal(),str.isnumeric()
+str.isalphanum()
+str.islowwer(),str.isupper()
+str.isidentifier(),str.isKeyword()
 """
 
 
@@ -52,7 +57,68 @@ str.index(<chaine>;<debut>;<fin>)
 # print(ma_chaine)
 
 
-ma_chaine = "MonSuperProgramme"
+# ma_chaine = "MonSuperProgramme"
 
-print(ma_chaine.find("Super"))
+# print(ma_chaine.find("Super"))
 
+
+# ma_chaine = "MonSuperProgramme"
+# try:
+#   print(ma_chaine.index("super"))
+# except:
+#   print("Je n'ai pas trouvé cette chaîne de caractére")
+
+
+
+# ma_chaîne = "[  MonSuperProgramme    ]"
+
+# print(ma_chaîne)
+# print(ma_chaîne.strip())
+
+
+
+# ma_chaine = "abababab"
+# print(ma_chaine)
+# ma_chaine = ma_chaine.replace("a","z")
+# print(ma_chaine.strip())
+
+
+
+# ma_chaine = "abababab"
+# print(ma_chaine)
+# ma_chaine = ma_chaine.replace("a","z",1)
+# print(ma_chaine)
+
+
+# phrase = "Magicien|10|5"
+
+# print(phrase.split("|"))
+
+
+
+
+# ch = "bonjour"
+
+# if ch.islower():
+#     print("Minuscule")
+# else:
+#     print("La chaîne contient des majuscules")
+
+
+
+
+# ch = "class"
+
+# if ch.isidentifier():
+#     print("Réservé")
+# else:
+#     print("Libre")
+
+
+
+ch = "18"
+
+if ch.isidentifier():
+    print("Réservé")
+else:
+    print("Libre")
