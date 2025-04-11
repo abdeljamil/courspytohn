@@ -116,9 +116,18 @@ str.isidentifier(),str.isKeyword()
 
 
 
-ch = "18"
+# ch = "18"
 
-if ch.isidentifier():
-    print("Réservé")
+# if ch.isidentifier():
+#     print("Réservé")
+# else:
+#     print("Libre")
+
+
+
+ch = "Le langage Python"
+
+if "langage" in ch:
+    print("Trouvé")
 else:
-    print("Libre")
+    print("Non trouvé")
