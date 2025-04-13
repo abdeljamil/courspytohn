@@ -151,7 +151,53 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 # print(inventaire[:])
 
 
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# inventaire[2:4] = ["bouclier d'acier"] * 2 
+# print(inventaire[:])
+
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# inventaire[2] = "manteau"
+# print(inventaire[:])
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique",16]
+
+# if 16 in inventaire:
+#     print("Je possède un bouclier.")
+# else:
+#     print("Je n'ai pas de bouclier")
+
+
+
+# inventaire = []
+# print(inventaire[:])
+
+# inventaire.append("Arc")
+# print(inventaire[:])
+
+# inventaire.append("Bouclier")
+# print(inventaire[:])
+
+
+# inventaire = ["Arc","bouclier","Manteau"]
+# print(inventaire[:])
+
+# inventaire.insert(1,"potion de nana")
+# print(inventaire[:])
+
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# inventaire.remove("bouclier")
+# print(inventaire[:])
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# del inventaire[1]
+# print(inventaire[:])
+
 inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
 print(inventaire[:])
-inventaire[2:4] = ["bouclier d'acier"] * 2 
-print(inventaire[:])
+print("Indice :",inventaire.index("bouclier"))
