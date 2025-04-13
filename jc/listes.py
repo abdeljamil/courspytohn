@@ -3,12 +3,12 @@
 #Création d'une liste
 
 """
-NOTES 
+NOTES
 liste[X] = Affiche élément d'indixe X
-liste[-X] = Affiche Xéme élément en partant de la fin 
+liste[-X] = Affiche Xéme élément en partant de la fin
 
-list[:] = Affiche tous les éléments 
-list[:X] = Affiche les X premiers éléments 
+list[:] = Affiche tous les éléments
+list[:X] = Affiche les X premiers éléments
 list[X:] = Affiche les X derniers éléments
 list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 
@@ -16,7 +16,7 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 
 # inventaire = list()
 
-# print(type(inventaire)) 
+# print(type(inventaire))
 
 
 # inventaire = list()
@@ -142,18 +142,18 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 
 # inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
 # print(inventaire[:])
-# inventaire[:] = ["bouclier d'acier"] * 4 
+# inventaire[:] = ["bouclier d'acier"] * 4
 # print(inventaire[:])
 
 # inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
 # print(inventaire[:])
-# inventaire[:] = ["bouclier d'acier"] * len(inventaire) 
+# inventaire[:] = ["bouclier d'acier"] * len(inventaire)
 # print(inventaire[:])
 
 
 # inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
 # print(inventaire[:])
-# inventaire[2:4] = ["bouclier d'acier"] * 2 
+# inventaire[2:4] = ["bouclier d'acier"] * 2
 # print(inventaire[:])
 
 
@@ -216,8 +216,113 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 # print(inventaire[:])
 
 
-inventaire = [5,128,-7,3,124,7,178,2,-8]
-print(inventaire[:])
+# inventaire = [5,128,-7,3,124,7,178,2,-8]
+# print(inventaire[:])
 
-inventaire.sort()
-print(inventaire[:])
+# inventaire.sort()
+# print(inventaire[:])
+
+
+# inventaire = [5,128,-7,3,124,7,178,2,-8]
+# print(inventaire[:])
+
+# inventaire.reverse()
+# print(inventaire[:])
+
+
+
+# inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+# print(inventaire[:])
+
+# print("Nombre de potion :", inventaire.count("potion"))
+
+# help(list)
+
+
+
+# inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+# print(inventaire[:])
+# inventaire.clear()
+# print(inventaire[:])
+
+
+# inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+# print(inventaire[:])
+# inventaire[:]=[]
+# print(inventaire[:])
+
+
+# chaine = "Bonjour à tous"
+# chaine = chaine.split(" ")
+# print(chaine)
+
+
+# inventaire = ["Bonjour" , "à" , "tous"]
+# phrase = " ".join(inventaire)
+# print(phrase)
+
+# inventaire = ["Bonjour" , "à" , "tous"]
+# phrase = "_".join(inventaire)
+# print(phrase)
+
+
+# liste1 = ["Arc","bouclier","tunique"]
+# liste2 = liste1
+# print("liste1",liste1[:])
+# print("liste2",liste2[:])
+# liste2.append("potion de nana")
+# print("liste1",liste1[:])
+# print("liste2",liste2[:])
+
+
+# import copy
+# liste1 = ["Arc","bouclier","tunique"]
+# #Ne fais pas de copie -> liste2 = liste1
+# liste2 = copy.deepcopy(liste1)
+
+# print("liste1",liste1[:])
+# print("liste2",liste2[:])
+
+# liste2.append("potion de nana")
+
+# print("liste1",liste1[:])
+# print("liste2",liste2[:])
+
+
+# liste1 = ["Arc","bouclier","tunique"]
+# liste2 = ["potion","parchemin"]
+
+# print(liste1[:])
+
+# liste1.extend(liste2)
+# print(liste1[:])
+
+
+
+# liste1 = ["Arc","bouclier","tunique"]
+# liste2 = ["potion","parchemin"]
+
+# print(liste1[:])
+
+# liste1 = liste1 + liste2
+# print(liste1[:])
+
+
+
+# liste1 = ["Arc","bouclier","tunique"]
+# liste2 = ["potion","parchemin"]
+# print(liste1[:])
+# liste1 += liste2
+# #A = A + B <=> A+=B
+# print(liste1[:])
+
+
+liste1 = ["Arc","bouclier","tunique"]
+liste2 = ["potion","parchemin"]
+print(liste1[:])
+print(liste2[:])
+liste1 += liste2
+#A = A + B <=> A+=B
+liste2.append("Guêtres")
+print(liste1[:])
+print(liste2[:])
