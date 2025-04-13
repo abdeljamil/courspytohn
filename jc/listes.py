@@ -11,6 +11,7 @@ list[:] = Affiche tous les éléments
 list[:X] = Affiche les X premiers éléments
 list[X:] = Affiche les X derniers éléments
 list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
+len(<list>)= Retourne la taille de la  liste (nombre d'éléments )
 
 """
 
@@ -317,12 +318,26 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 # print(liste1[:])
 
 
-liste1 = ["Arc","bouclier","tunique"]
-liste2 = ["potion","parchemin"]
-print(liste1[:])
-print(liste2[:])
-liste1 += liste2
-#A = A + B <=> A+=B
-liste2.append("Guêtres")
-print(liste1[:])
-print(liste2[:])
+# liste1 = ["Arc","bouclier","tunique"]
+# liste2 = ["potion","parchemin"]
+# print(liste1[:])
+# print(liste2[:])
+# liste1 += liste2
+# #A = A + B <=> A+=B
+# liste2.append("Guêtres")
+# print(liste1[:])
+# print(liste2[:])
+
+
+# inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+# for objet in enumerate(inventaire):
+#     print(objet)
+
+
+# inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+# for indice_objet,valeur_objet in enumerate(inventaire):
+#     print("Element d'indice {}-> {}".format(indice_objet,valeur_objet))
+
+inventaire = ["potion","Arc","épée","bouclier","potion","fléches","tunique","potion"]
+for k,v in enumerate(inventaire):
+    print("Element d'indice {}-> {}".format(k,v))
