@@ -198,6 +198,26 @@ list [A:B] = Affiche de l'élément d'indice A à l'élément indice B (exclus)
 # del inventaire[1]
 # print(inventaire[:])
 
-inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# print("Indice :",inventaire.index("bouclier"))
+
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# objet_a_supprimer = inventaire.index("bouclier")
+# del inventaire[objet_a_supprimer]
+# print(inventaire[:])
+
+# inventaire = ["Arc","épée","bouclier","potion","fléches","tunique"]
+# print(inventaire[:])
+# inventaire.remove("bouclier")
+# print(inventaire[:])
+
+
+inventaire = [5,128,-7,3,124,7,178,2,-8]
 print(inventaire[:])
-print("Indice :",inventaire.index("bouclier"))
+
+inventaire.sort()
+print(inventaire[:])
