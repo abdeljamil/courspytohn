@@ -1,6 +1,1 @@
-chat 
-chien
-Elephant
-Orque
-Tigre
-Saumon
+15Bonjour,Je suis une phraseEt,une autre....

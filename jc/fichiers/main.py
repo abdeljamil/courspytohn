@@ -8,6 +8,7 @@ Modes d'ouverture : r (lecture seule)
 
                     
 Lecture           : read(),readline(),readlines()
+Ecriture          : write()
 """
 
 # fic = open("docs/donnees.txt","r")
@@ -57,7 +58,60 @@ Lecture           : read(),readline(),readlines()
 # fic.close()
 
 
-with open("docs/donnees.txt","r") as fic:
-    content = fic.read()
-    print(content)
-# Pas besoin de fermer le fichier avec with fic.close()
+# with open("docs/donnees.txt","r") as fic:
+#     content = fic.read()
+#     print(content)
+# # Pas besoin de fermer le fichier avec with fic.close()
+
+# if fic.closed:
+#     print("fermé")
+
+
+
+# with open("docs/donnees.txt","r") as fic:
+#     content = fic.read()
+#     print(content)
+# # Pas besoin de fermer le fichier avec with fic.close()
+
+# print("Le reste du programme.....")
+
+
+# with open("docs/donnees.txt","w") as fic:
+#     nombre = 15  
+#     fic.write(str(nombre))
+#     fic.write("Bonjour,Je suis une phrase")
+#     fic.write("Et,une autre....")
+
+
+
+# import pickle
+# class player:
+#     def __init__(self,name,level):
+#         self.name = name
+#         self.level = level
+
+#     def whoami(self):
+#         print("{}({})".format(self.name,self.level))
+
+# P1 = player("Jason",10)
+# # P1.whoami()
+# with open("player.data","wb") as fic:
+#     record = pickle.Pickler(fic)
+#     record.dump(P1)
+
+
+import pickle
+class player:
+    def __init__(self,name,level):
+        self.name = name
+        self.level = level
+
+    def whoami(self):
+        print("{}({})".format(self.name,self.level))
+
+# P1 = player("Jason",10)
+# P1.whoami()
+with open("player.data","rb") as fic:
+    get_record = pickle.Unpickler(fic)
+    player_one = get_record.load()
+player_one.whoami()
