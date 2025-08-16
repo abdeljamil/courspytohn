@@ -182,5 +182,5 @@ label_gender = tkinter.Label(app, textvariable=var_label_gender)
 radio1.pack()
 radio2.pack()
 label_gender.pack()
-#Boucle principâle
+#Boucle principâle 
 app.mainloop()
