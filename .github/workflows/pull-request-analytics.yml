@@ -23,3 +23,4 @@ jobs:
           TIMEZONE: "Europe/Berlin"
           REPORT_DATE_START: ${{ inputs.report_date_start }}
           REPORT_DATE_END: ${{ inputs.report_date_end }}
+  
